@@ -26,7 +26,6 @@ Gem::Specification.new do |s|
      "lib/eem_model/eem.rb",
      "lib/eem_model/eem_accession.rb",
      "lib/eem_model/part.rb",
-     "pkg/eem_model-0.0.1.gem",
      "test/helper.rb",
      "test/test_eem_model.rb"
   ]
