@@ -1,8 +1,13 @@
 = eem_model
 
-0.0.2 Requires active-fedora 1.1.13
+>= 0.0.2 Requires active-fedora 1.1.13
 0.0.1 Requires active-fedora 1.0.7
 
+= Releases
+
+0.0.2.1 Added DC to Eem declaration
+0.0.2   Require active-fedora 1.1.13
+0.0.1   Requires active-fedora 0.0.7
 
 == Copyright
 

@@ -25,6 +25,9 @@ module EemModel
       m.field "statusDatetime", :string
       m.field "downloadDate", :string
     end
+    
+    has_metadata :name => "DC", :type => ActiveFedora::QualifiedDublinCoreDatastream do |m|
+    end
 
   end
   
