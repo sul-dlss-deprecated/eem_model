@@ -1,0 +1,50 @@
+PATH
+  remote: .
+  specs:
+    eem_model (0.0.2.2)
+      active-fedora (>= 1.1.13)
+
+GEM
+  remote: http://rubygems.org/
+  remote: http://sulair-rails-dev.stanford.edu/
+  specs:
+    active-fedora (1.2.8)
+      activeresource (< 3.0.0)
+      mime-types (>= 1.16)
+      multipart-post
+      nokogiri
+      om (>= 1.0)
+      solr-ruby (>= 0.0.6)
+      solrizer (>= 0.3.0)
+      xml-simple (>= 1.0.12)
+    activeresource (2.3.10)
+      activesupport (= 2.3.10)
+    activesupport (2.3.10)
+    facets (2.9.0)
+    mediashelf-loggable (0.4.0)
+    mime-types (1.16)
+    multipart-post (1.0.1)
+    nokogiri (1.4.4)
+    om (1.0.2)
+      facets
+      facets
+      nokogiri
+      nokogiri (>= 1.4.2)
+    solr-ruby (0.0.8)
+    solrizer (0.3.2)
+      mediashelf-loggable
+      nokogiri
+      nokogiri
+      om
+      solr-ruby
+    xml-simple (1.0.12)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  active-fedora (>= 1.1.13)
+  eem_model!
+
+METADATA
+  version: 1.0.6
