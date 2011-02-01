@@ -4,7 +4,7 @@ $:.unshift lib unless $:.include?(lib)
 
 Gem::Specification.new do |s|
   s.name = "eem_model"
-  s.version = "0.0.2.2"
+  s.version = "0.0.3"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Douglas Kim", "Willy Mene"]
   s.email       = ["dougkim@stanford.edu", "wmene@stanford.edu"]
