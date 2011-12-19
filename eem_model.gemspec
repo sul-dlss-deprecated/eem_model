@@ -4,7 +4,7 @@ $:.unshift lib unless $:.include?(lib)
 
 Gem::Specification.new do |s|
   s.name = "eem_model"
-  s.version = "0.0.3"
+  s.version = "0.9.0"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Douglas Kim", "Willy Mene"]
   s.email       = ["dougkim@stanford.edu", "wmene@stanford.edu"]
@@ -15,7 +15,9 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = ">= 1.3.6"
 
   # Runtime dependencies
-  s.add_dependency "active-fedora", ">=1.1.13"
+  s.add_dependency "active-fedora", "< 2.0.0"
+  
+  s.add_development_dependency "lyberteam-devel", ">=0.4.1"
  
   s.files        = Dir.glob("lib/**/*") + %w(LICENSE README.rdoc)
   s.require_path = 'lib'

@@ -10,10 +10,6 @@ rescue Bundler::BundlerError => e
   exit e.status_code
 end
 
-require 'spec/rake/spectask'
-Spec::Rake::SpecTask.new(:spec) do |spec|
-  spec.libs << 'lib' << 'spec'
-  spec.spec_files = FileList['spec/**/*_spec.rb']
-end
-
-task :default => [:spec]
+# To release the gem to the DLSS gemserver, run 'rake dlss_release'
+require 'dlss/rake/dlss_release'
+Dlss::Release.new
