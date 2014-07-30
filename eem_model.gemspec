@@ -16,10 +16,7 @@ Gem::Specification.new do |s|
 
   # Runtime dependencies
   s.add_dependency "active-fedora", "< 2.0.0"
-  
-  s.add_development_dependency "lyberteam-devel", ">=0.4.1"
- 
+
   s.files        = Dir.glob("lib/**/*") + %w(LICENSE README.rdoc)
   s.require_path = 'lib'
 end
-
